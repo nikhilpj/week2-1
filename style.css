@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* container for social media icon */
+.social-media{
+    background-color:aqua;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+/* navbar logo image container */
+.navbar-logo-img{
+width: 355.22px;
+height: 52.6px;
+margin-top: 20px;
+margin-left: 74px;
+}
+
+.navbar-logo-img img{
+    width: 100%;
+}
+
+.navbar-logo{
+    display: flex;
+    
+}
+
+.navbar-links img{
+    width: 160px;
+    height: 29px;
+}
+
+.navbar-links a{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22.5px;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+.navbar-links{
+    
+   padding-top: 15px;
+   
+   margin-left: 200px;
+}
+.menu{
+    display: none;
+}
+.navbar-para{
+    width: 770px;
+    height: 7px;
+    opacity: 50%;
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: 550px;
+    
+}
+.navbar-para-mobile{
+    display: none;
+}
+/* .app-booking-img{
+    position: relative;
+    top: 0;
+  left: 0;
+}
+.img1{
+    position: relative;
+    top: 0;
+  left: 0;
+}
+.img2{
+    position: absolute;
+    top: 90px;
+  left: 30px;
+}
+.img3{
+    position:absolute;
+    top: 20;
+    left:20px;
+    
+    border:1px solid black 
+} */
+
+.img1{
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width:96%;
+    height: 227px;
+    margin-left: 18px;
+}
+.img2{
+    position: absolute;
+    z-index: 2;
+    top: 205px; 
+ left: 20px; 
+}
+.img3{
+    position: absolute;
+    z-index: 3;
+   
+    top: 210px;
+    left: 820px;   
+   
+}
+.app-booking{
+    display: flex;
+}
+.app-booking-icon{
+    
+    width: 48px;
+    height: 100px;
+    margin-top: 40px;
+
+}
+
+
+#app-booking-date{
+    z-index: -2;
+}
+.app-booking-mobile{
+    display: none;
+}
+.main-img-mobile{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .social-media{
+        display: none;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .navbar-logo-img{
+        width: 155.94px;
+        height: 23.6px;
+        margin-top: 20px;
+        margin-left: 26.35px;
+        border: 1px solid black;
+        
+        }
+    .menu{
+        display:block;
+        margin-top: 20px;
+        margin-left: 100px;
+        border: 1px solid red;
+        height: 20px;
+        
+    }
+    .navbar-logo{
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        height: 100px;
+    }
+    .navbar-para{
+        display: none;
+    }
+    .app-booking{
+        display: none;
+    }
+    .navbar-para-mobile{
+        display: block;
+        width: 101px;
+        height: 7px;
+        opacity: 40%;
+        font-weight: 400;
+        font-size: 10px;
+        margin-left: 150px;
+        margin-bottom: 5px;
+        background-color: aqua;
+    }
+    .app-booking-mobile-container{
+        width: 328px;
+        height: 120px;
+        background-color:  #E21E26;
+        color: white
+        ;
+        margin-left: 20px;
+    }
+    .app-booking-mobile-span{
+        width: 251px;
+        height: 32px;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .app-booking-mobile-img{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .app-booking-mobile{
+        display: flex;
+    }
+    .app-booking-mobile-icons{
+        margin-left: 20px;
+    }
+    .main-image{
+        display: none;
+    }
+    .main-img-mobile{
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        margin-top: 10px;
+    }
+}
