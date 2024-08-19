@@ -371,7 +371,12 @@ line-height: 21px;
     border: none;
     margin-bottom: 20px;
 padding-right: 480px;
+
 }
+.accordion-button:hover{
+    cursor:pointer;
+}
+
 .accordion{
     margin-left: 40px;
 }
@@ -382,6 +387,37 @@ padding-right: 480px;
     width: 100%;
     height: 303px;
     background-color: #000000;
+    color: white;
+}
+.footer-logo img{
+width: 56.75px;
+height: 66px;
+}
+.footer-logo{
+    width: 120px;
+    height: 100px;
+   padding-top: 50px;
+    margin-left: 80px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    display: flex;
+}
+.footer-links a{
+margin-right: 20px;
+padding-right: 20px;
+}
+.footer-links{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#copyright{
+   margin-left: 250px;
+   
 }
 
 
