@@ -133,6 +133,144 @@ margin-left: 74px;
     display: none;
 }
 
+.car-scroll-title{
+font-weight: 400;
+font-size: 34.74px;
+line-height: 52.11px;
+text-align: center;
+}
+.car-scroll-card{
+    width: 754px;
+    height:290px ;
+    display: flex;
+}
+.car-scroll-card-img{
+    width: 360px;
+    height: 290px;
+}
+.Mitsubishi{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+}
+.car-scroll-card-details
+{
+    margin-left: 42px;
+}
+.car-scroll{
+    margin-top: 40px;
+}
+.car-scroll-card{
+    margin-top: 40px;
+    border: 1px solid #D9D9D9;
+    margin-left: 64px;
+    margin-right: 30px;
+}
+.car-scroll-card-icons{
+    margin-top: 72px;
+   
+}
+.car-scroll-card-icons span{
+    margin-right: 12px;
+}
+.price{
+    margin-top: 35px;
+}
+.price button{
+    width: 98px;
+    height: 27px;
+    color:white;
+    background-color: #E21E26;
+    margin-left: 64px;
+}
+.card-container{
+    display: flex;
+    
+    width: 100%;
+}
+.subscription{
+    width: 1234px;
+    height: 506px;
+    margin-top: 40px;
+    margin-left: 142px;
+    display: flex;
+   
+}
+.subscription-input{
+    width: 550px;
+    height: 506px;
+    
+}
+.subscription-title{
+    width: 500px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 51px;
+    margin-bottom: 40px;
+}
+.subscription-input-field input{
+background-color: #F8F8F8;
+border: none;
+width: 223px;
+height: 45px;
+margin-right: 17px;
+margin-bottom: 16px;
+}
+.subscription-para{
+    width: 478px;
+    height: 42px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 40px;
+}
+.subscription-button button{
+    width: 464px;
+    height: 58px;
+    background-color: #E21E26;
+    color: white;
+}
+.subscription-images{
+    background-color: #E21E26;
+    width: 500px;
+    height: 506px;
+    padding-right: 10px;
+    display: flex;
+}
+.subscription-img img{
+    width: 231px;
+    height: 417px;
+}
+.subscription-img-details{
+    width: 233px;
+    color: white;
+    margin-top: 30px;
+}
+.subscription-img-details input{
+   background-color: #F8F8F8;
+   width: 263px;
+   height: 45px;
+   margin-top: 12.5px;
+   margin-bottom: 23.42px;
+}
+.subscription-img-details button{
+background-color: black;
+color: white;
+width: 144px;
+height: 42px;
+margin-bottom: 42px;
+}
+.subscription-img-details p{
+width: 63px;
+height: 21px;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+}
+
+
 @media (max-width: 768px){
     .social-media{
         display: none;
