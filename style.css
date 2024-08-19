@@ -316,6 +316,33 @@ line-height: 21px;
     margin-top: 40px;
     margin-bottom: 80px;
 }
+.location-container{
+    width: 1150px;
+    height: 325px;
+    margin-left: 64px;
+    background-color: #000000;
+    color: white;
+}
+.location-title{
+    width: 163px;
+    height: 51px;
+    justify-content: center;
+    margin-left: 500px;
+    padding-top: 56px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 51px;
+    
+   
+}
+
+.location-icons{
+    margin-top: 80px;
+}
+
+.location-icons img{
+    margin-left: 80px;
+}
 
 
 @media (max-width: 768px){
