@@ -7,7 +7,7 @@ body{
 
 /* container for social media icon */
 .social-media{
-    background-color:aqua;
+   
     display: flex;
     justify-content: flex-end;
     
@@ -342,6 +342,46 @@ line-height: 21px;
 
 .location-icons img{
     margin-left: 80px;
+}
+.faq-title{
+    text-align: center;
+    margin-top: 56px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 51px;
+    margin-bottom: 69px;
+}
+.accordion-content{
+    display: none;
+    width: 800px;
+    height: 25px;
+    opacity: 50%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24.71px;
+    margin-left: 150px;
+}
+.accordion-button{
+    width: 1059px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+    background-color: white;
+    border: none;
+    margin-bottom: 20px;
+padding-right: 480px;
+}
+.accordion{
+    margin-left: 40px;
+}
+ hr{
+    width: 70%;
+}
+.footer{
+    width: 100%;
+    height: 303px;
+    background-color: #000000;
 }
 
 
