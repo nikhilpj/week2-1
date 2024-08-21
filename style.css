@@ -65,28 +65,7 @@ margin-left: 74px;
 .navbar-para-mobile{
     display: none;
 }
-/* .app-booking-img{
-    position: relative;
-    top: 0;
-  left: 0;
-}
-.img1{
-    position: relative;
-    top: 0;
-  left: 0;
-}
-.img2{
-    position: absolute;
-    top: 90px;
-  left: 30px;
-}
-.img3{
-    position:absolute;
-    top: 20;
-    left:20px;
-    
-    border:1px solid black 
-} */
+
 
 .img1{
     position: relative;
@@ -133,6 +112,14 @@ margin-left: 74px;
     display: none;
 }
 
+/* booking button for mobile , hide in desktop*/
+.booking-buttons{
+    display: none;
+}
+/* end */
+
+
+
 .car-scroll-title{
 font-weight: 400;
 font-size: 34.74px;
@@ -143,6 +130,7 @@ text-align: center;
     width: 754px;
     height:290px ;
     display: flex;
+    margin-right: 5px;
 }
 .car-scroll-card-img{
     width: 360px;
@@ -157,6 +145,7 @@ text-align: center;
 .car-scroll-card-details
 {
     margin-left: 42px;
+    width: 390px;
 }
 .car-scroll{
     margin-top: 40px;
@@ -186,8 +175,9 @@ text-align: center;
 }
 .card-container{
     display: flex;
-    
+    overflow-x: scroll;
     width: 100%;
+    height: 360px;
 }
 .subscription{
     width: 1234px;
@@ -269,6 +259,9 @@ font-weight: 500;
 font-size: 14px;
 line-height: 21px;
 }
+.subscription-images-mobile{
+    display: none ;
+}
 
 .rent-title {
     width: 518px;
@@ -322,6 +315,9 @@ line-height: 21px;
     margin-left: 64px;
     background-color: #000000;
     color: white;
+}
+.location-container-mobile{
+    display: none;
 }
 .location-title{
     width: 163px;
@@ -389,6 +385,9 @@ padding-right: 480px;
     background-color: #000000;
     color: white;
 }
+.footer-mobile{
+    display: none;
+}
 .footer-logo img{
 width: 56.75px;
 height: 66px;
@@ -420,8 +419,13 @@ padding-right: 20px;
    
 }
 
+/* starting of styling for mobile devices */
 
 @media (max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
     .social-media{
         display: none;
     }
@@ -468,12 +472,13 @@ padding-right: 20px;
         background-color: aqua;
     }
     .app-booking-mobile-container{
-        width: 328px;
+        /* width: 328px; */
+        width: 70%;
         height: 120px;
         background-color:  #E21E26;
         color: white
         ;
-        margin-left: 20px;
+        margin-left: 5px;
     }
     .app-booking-mobile-span{
         width: 251px;
@@ -493,7 +498,8 @@ padding-right: 20px;
         display: flex;
     }
     .app-booking-mobile-icons{
-        margin-left: 20px;
+        /* margin-left: 5px; */
+        width: 41px;
     }
     .main-image{
         display: none;
@@ -504,4 +510,336 @@ padding-right: 20px;
         overflow: hidden;
         margin-top: 10px;
     }
+    .main-img-mobile img{
+        
+        max-width:100%;
+        overflow-x: hidden;
+        
+    }
+
+
+    /* booking button  */
+    .booking-buttons{
+        display: flex;
+        margin-left: 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .book-car-button button{
+        width: 145px;
+        height: 38px;
+        background-color: #E21E26;
+        color: white;
+        margin-right: 8px;
+    }
+    .quick-book-button button{
+        width: 145px;
+        height:38px ;
+        background-color: white;
+        color:#E21E26;
+        border: 1px solid #E21E26;
+    }
+
+    /* car - scroll- container  */
+    .car-scroll-title{
+        width: 145px;
+        height: 24px;
+        margin-left: 17px;
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .car-scroll-card{
+        width: 206px;
+        height: 333px;
+        display:list-item;
+        margin-left: 5px;
+        
+    }
+    .car-scroll-card-img{
+        width: 207px;
+        height: 127px;
+        overflow: hidden;
+    }
+    .car-scroll-card-img img{
+        width: 100%;
+        
+    }
+    .car-scroll-card-details{
+        width: 207px;
+        height: 206px;
+    }
+    .Mitsubishi{
+        width: 142px;
+        height: 24px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .car-scroll-card-details{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15.6px;
+        margin-left: 10px;
+    }
+    .car-scroll-card-icons{
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .price{
+        margin-top: 10px;
+        width: 116px;
+        height: 24px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 19.5px;
+    }
+    .price button{
+        width: 124px;
+        height: 36px;
+        
+        margin-top: 5px;
+       margin-left: 5px;
+    }
+
+  .subscription{
+    display: list-item;
+    margin-left: 10px;
+  }
+  .subscription-title{
+    width: 227px;
+    height: 48px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+
+  }
+  .subscription-input-field{
+    height: 100px;
+    width: 100%;
+  }
+
+  .subscription-input-field input{
+    width: 328px;
+    height: 48px;
+  }
+  .subscription-para {
+    width: 328px;
+    height: 54px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 16px;
+  }
+  .subscription-button{
+    width: 128px;
+    height: 38px;
+  }
+  .subscription-button button{
+    width: 100%;
+  }
+  .subscription-images{
+   display: none;
+    
+  }
+  .subscription-images-mobile{
+    background-color: #E21E26;
+    color: white;
+    width: 320px;
+    height: 390px;
+    margin-bottom: 50px;
+    display: block;
+  }
+  .subscription-images-mobile-flex{
+    display: flex;
+  }
+  .subscription-input{
+    width: 340px;
+    height: 350px;
+    
+  }
+.subscription-images-mobile-details{
+    width: 140px;
+    height: 49px;
+    padding-top: 10px;
+    margin-left: 5px;
+    
+}
+.subscription-images-mobile-details img{
+   margin-top: 10px;
+}
+
+.subscription-images-mobile input{
+    width: 270px;
+    height: 48px;
+    background-color: white;
+    margin-left: 5px;
+}
+.subscription-images-mobile button{
+    width: 129px;
+    height: 39px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ 
+.rent-container{
+    margin-top: 250px;
+    margin-bottom: 80px;
+    
+}
+.rent-title{
+    width: 211px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    margin-left: 15px;
+}
+.rent-order{
+    width: 45px;
+    height: 36px;
+    margin-bottom: 18px;
+}
+.rent-flex{
+    display: list-item;
+}
+.rent-details{
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.rent-order-details{
+    width: 280px;
+    height: 165px;
+}
+.location-container-mobile{
+    width: 300px;
+    height: 150px;
+    margin-left: 10px;
+    background-color: #000000;
+    color: white;
+    display: block;
+}
+.location-title-mobile{
+    width: 77px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 25px;
+}
+.location-icons-mobile img{
+    width: 76px;
+    height: 19px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.location-container{
+    display: none;
+}
+.location-icons-mobile{
+margin-left: 10px;
+}
+.faq-container{
+    width: 100%;
+}
+.faq-title{
+    width: 212px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.accordion-button{
+    width: 80%;
+    height: 16px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+.accordion{
+    width: 290px;
+    margin-left: 10px;
+    
+}
+.accordion-content{
+    margin-left: 10px;
+    width: 90%;
+    height: 40px;
+}
+hr{
+    width: 70%;
+    margin-left: 10px;
+}
+.footer{
+    display: none;
+}
+.footer-mobile{
+    width: 100%;
+    height: 300px;
+    display: block;
+    background-color: aqua;
+}
+.footer-1-logo span{
+    width: 68px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 7.7px;
+    line-height: 11.6px;
+    margin-top: 10px;
+}
+.footer-1-logo{
+    display: flex;
+}
+.footer-1{
+    display: flex;
+    
+}
+.social-media-mobile{
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.footer-1-nav a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 20px;
+}
+.footer-1-nav{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer-1-container{
+    background-color: #F6F7F9;
+    width: 90%;
+}
+.footer-2-container {
+    background-color: #000000;
+    color: white;
+    height: 157px;
+}
+.footer-2-container  span{
+   margin-left: 80px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.footer-2-nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    
+}
+
 }
